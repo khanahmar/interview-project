@@ -1,0 +1,55 @@
+.servicesBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.servicesContainer {
+  width: 100%;
+  max-width: 1024px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.servicesContainer h2 {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+  width: 100%;
+  height: 25vh;
+  align-items: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  gap: 8px;
+}
+
+.service img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.service h3 {
+  font-size: 20px;
+}
+
+.service p {
+  font-size: 15px;
+}

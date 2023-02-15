@@ -1,0 +1,96 @@
+.getservice {
+  background-color: goldenrod;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 5rem;
+}
+
+.getServiceContainer {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 10px;
+}
+
+.leftCol {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.serviceIcons {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.serviceIcon {
+  padding: 20px;
+  background-color: white;
+  border: 4px solid rgb(185, 139, 21);
+  color: black;
+  font-size: 40px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.serviceIcons h3 {
+  font-weight: 500;
+  font-size: 18px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+.serviceIcons p {
+  width: 200px;
+  font-size: 12px;
+}
+
+.serviceIconContainer {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.rightCol {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rightCol h4 {
+  font-size: 22px;
+}
+
+.rightColContainer {
+  width: 200px;
+  height: 120px;
+  background-color: white;
+  border: 4px solid rgb(175, 131, 19);
+  border-radius: 10px;
+}

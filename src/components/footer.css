@@ -1,0 +1,43 @@
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(62, 62, 62);
+  display: flex;
+  justify-content: center;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1024px;
+  flex-direction: column;
+  color: white;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact i {
+  cursor: pointer;
+}
+
+.phoneEmail {
+  display: flex;
+  gap: 10px;
+}
+
+.rights {
+  color: gray;
+  font-size: 14px;
+}

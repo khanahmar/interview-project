@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 28px;
+  position: relative;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.phone,
+.email {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.listServices {
+  background-color: rgb(232, 197, 41);
+  color: white;
+  position: absolute;
+  width: 80px;
+  text-align: center;
+  border: 2px solid white;
+  font-size: 12px;
+  border-radius: 4px;
+  top: 0;
+  z-index: 10;
+}
+
+.services {
+  display: flex;
+  margin-right: 6rem;
+  gap: 10px;
+}
+
+.listServices i {
+  font-size: 50px;
+}
