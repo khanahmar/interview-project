@@ -2,12 +2,9 @@ import React, { useState } from "react"
 import "./header.css"
 
 const Header = () => {
-
   return (
     <div className="header">
       <div className="headerContainer">
-
-
         <div className="services">
           <div className="email">
             <i class="fa-solid fa-envelope"></i>
@@ -19,7 +16,7 @@ const Header = () => {
           </div>
         </div>
         <div className="listServices">
-          <i class="fa-sharp fa-regular fa-ballot"></i>
+          <i class="fa-solid fa-list-check"></i>
           <p>List Your Services For Free</p>
         </div>
       </div>

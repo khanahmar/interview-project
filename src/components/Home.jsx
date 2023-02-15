@@ -9,11 +9,11 @@ import { Image } from "@chakra-ui/react"
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 
-const Home = () => {
+const Home = (props) => {
+  const { openPop } = props
 
   return (
     <div className="home">
-
       <div className="carousel">
         <Carousel
           showThumbs={false}
@@ -55,8 +55,8 @@ const Home = () => {
           <div className="logoContainer">
             <div className="logo">EVENT MANAGEMENT</div>
             <div className="btns">
-              <button>sign In</button>
-              <button>sign Up</button>
+              <button onClick={openPop}>sign In</button>
+              <button onClick={openPop}>sign Up</button>
             </div>
           </div>
           <div className="form">
